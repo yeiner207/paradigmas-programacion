@@ -11,4 +11,4 @@ const products = [
 const productsWithTax = products.map(p => ({
     ...p,
     priceWithTax: (p.price * 1.19).toFixed(2) // dos decimales
-}));
+}))
